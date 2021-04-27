@@ -38,6 +38,7 @@ ol {
 }
 ol > li {
 	list-style: none;
+	width: 2000px;
 	text-align: justify;
 }
 ol > li:before {
