@@ -38,7 +38,7 @@ ol {
 }
 ol > li {
 	list-style: none;
-	width: 2100px;
+	width: 1200px;
 	text-align: justify;
 }
 ol > li:before {
