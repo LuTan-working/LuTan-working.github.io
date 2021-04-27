@@ -159,8 +159,10 @@
 					<header>
 						<h2 align="left">Publications</h2>	
 					</header>
-                                        
-						<ol class="bracket">
+                                        ol {counter-reset: list;}
+                                        ol > li {list-style: none;}
+                                        ol > li:before {content: counter[list] ") ";counter-increment: list;}
+						<ol>
 							<li>First item</li>
                                                         <li>Second item</li>
                                                 </ol>
