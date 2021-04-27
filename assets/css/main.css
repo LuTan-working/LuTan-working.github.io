@@ -38,6 +38,7 @@ ol {
 }
 ol > li {
 	list-style: none;
+	text-align: justify;
 }
 ol > li:before {
 	content: "["counter(list)"]";
