@@ -33,7 +33,20 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ol {
+	counter-reset: list;
+}
+ol > li {
+	list-style: none;
+	width: 2500px;
+	text-align: justify;
+}
+ol > li:before {
+	content: "["counter(list)"]";
+	counter-increment: list;
+}
+
+ul {
 	list-style: none;
 }
 
